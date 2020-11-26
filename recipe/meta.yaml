@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}.tar.gz
+  url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: 87596017aa76c1284e83247593fe999ab7ba9a84e7488bcf0434b01277858f86
 
 build:
