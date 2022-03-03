@@ -1,5 +1,5 @@
 {% set name = "python-libsbml" %}
-{% set version = "5.19.2" %}
+{% set version = "5.19.3" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   sha256: b11a79a5421abba9f8874ebbc1c479cbdb3c1827697db74b687705632583a0e5
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
