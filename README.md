@@ -1,13 +1,31 @@
-About python-libsbml
-====================
+About python-libsbml-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-libsbml-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sbml.org
 
 Package license: LGPL-2.1-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-libsbml-feedstock/blob/main/LICENSE.txt)
+Summary: LibSBML is an application programming interface library for reading, writing, manipulating and validating content expressed in the Systems Biology Markup Language (SBML) format.
 
-Summary: LibSBML is an application programming interface library for reading, writing, manipulating and validating content expressed in the Systems Biology Markup Language (SBML) format. It is written in ISO C and C++, provides language bindings for Common Lisp, Java, Python, Perl, MATLAB and Octave, and includes many features that facilitate adoption and use of both SBML and the library. Developers can embed libSBML in their applications, saving themselves the work of implementing their own SBML parsing, manipulation and validation software.
+Development: https://github.com/sbmlteam/python-libsbml/
+
+Documentation: http://sbml.org/Software/libSBML
+
+LibSBML is an application programming interface library for
+reading, writing, manipulating and validating content
+expressed in the Systems Biology Markup Language (SBML)
+format.
+
+It is written in ISO C and C++, provides language bindings
+for Common Lisp, Java, Python, Perl, MATLAB and Octave, and
+includes many features that facilitate adoption and use of
+both SBML and the library. Developers can embed libSBML in
+their applications, saving themselves the work of
+implementing their own SBML parsing, manipulation and
+validation software.
+
 
 Current build status
 ====================
@@ -30,126 +48,126 @@ Current build status
               <td>linux_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10455&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-libsbml-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
