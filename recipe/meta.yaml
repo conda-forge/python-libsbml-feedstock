@@ -1,13 +1,13 @@
 {% set name = "python-libsbml" %}
-{% set version = "5.20.0" %}
+{% set version = "5.20.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2175c56b98a215851cf115390e2a4848ce32ddad4ea2cea09ac518cc34f81881
+  url: https://github.com/sbmlteam/python-libsbml/archive/v{{ version }}.tar.gz
+  sha256: ae55d58054a24c0d385edd4c58066659085fd3f9d48ac5a7c77f86a54f7a1483
 
 build:
   number: 0
@@ -55,7 +55,7 @@ about:
     their applications, saving themselves the work of
     implementing their own SBML parsing, manipulation and
     validation software.
-  
+
 
 extra:
   recipe-maintainers:
