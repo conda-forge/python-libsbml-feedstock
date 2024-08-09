@@ -1,5 +1,5 @@
 {% set name = "python-libsbml" %}
-{% set version = "5.20.2" %}
+{% set version = "5.20.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0af5cbff68c9b52bac4bd7bb261f93a60832dc8cb31dafc90d3aff51467935b7
+  sha256: c9d57cb81661eec7d9ec3a0efa463999d6cd389418dfdbeea764664f3a44617a
 
 build:
   number: 2
@@ -17,6 +17,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - {{ stdlib('c') }}
     - make            # [unix]
     - cmake
 
@@ -25,9 +26,11 @@ requirements:
     - setuptools
     - pip
     - swig >=3.0.12
+    - zlib
 
   run:
     - python
+    - zlib
 
 test:
   # Python imports
