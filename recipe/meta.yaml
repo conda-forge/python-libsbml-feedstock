@@ -26,9 +26,11 @@ requirements:
     - setuptools
     - pip
     - swig >=3.0.12
+    - zlib
 
   run:
     - python
+    - zlib
 
 test:
   # Python imports
