@@ -1,4 +1,4 @@
-{% set name = "python_libsbml" %}
+{% set name = "python-libsbml" %}
 {% set version = "5.20.5" %}
 
 package:
