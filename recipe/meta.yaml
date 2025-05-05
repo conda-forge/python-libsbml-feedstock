@@ -1,5 +1,5 @@
-{% set name = "python-libsbml" %}
-{% set version = "5.20.4" %}
+{% set name = "python_libsbml" %}
+{% set version = "5.20.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c9d57cb81661eec7d9ec3a0efa463999d6cd389418dfdbeea764664f3a44617a
+  sha256: a54b7377b125043fd40df0ec77900c12f99c7f7d48b9e12e82b1aef9502cc09a
 
 build:
   number: 3
