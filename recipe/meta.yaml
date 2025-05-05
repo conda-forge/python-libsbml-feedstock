@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sbmlteam/python-libsbml/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a54b7377b125043fd40df0ec77900c12f99c7f7d48b9e12e82b1aef9502cc09a
+  sha256: 001441c7a47da3edc2d6779d1daaaa6b646e352d612b0704fddc46abd226b60e
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - python
     - setuptools
     - pip
-    - swig ==4.2.21
+    - swig
     - zlib
 
   run:
