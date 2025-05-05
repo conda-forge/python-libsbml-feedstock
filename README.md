@@ -1,4 +1,4 @@
-About python-libsbml-feedstock
+About python_libsbml-feedstock
 ==============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-libsbml-feedstock/blob/main/LICENSE.txt)
@@ -197,53 +197,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-python--libsbml-green.svg)](https://anaconda.org/conda-forge/python-libsbml) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-libsbml.svg)](https://anaconda.org/conda-forge/python-libsbml) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-libsbml.svg)](https://anaconda.org/conda-forge/python-libsbml) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-libsbml.svg)](https://anaconda.org/conda-forge/python-libsbml) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python__libsbml-green.svg)](https://anaconda.org/conda-forge/python_libsbml) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python_libsbml.svg)](https://anaconda.org/conda-forge/python_libsbml) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python_libsbml.svg)](https://anaconda.org/conda-forge/python_libsbml) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python_libsbml.svg)](https://anaconda.org/conda-forge/python_libsbml) |
 
-Installing python-libsbml
+Installing python_libsbml
 =========================
 
-Installing `python-libsbml` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `python_libsbml` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `python-libsbml` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `python_libsbml` can be installed with `conda`:
 
 ```
-conda install python-libsbml
-```
-
-or with `mamba`:
-
-```
-mamba install python-libsbml
-```
-
-It is possible to list all of the versions of `python-libsbml` available on your platform with `conda`:
-
-```
-conda search python-libsbml --channel conda-forge
+conda install python_libsbml
 ```
 
 or with `mamba`:
 
 ```
-mamba search python-libsbml --channel conda-forge
+mamba install python_libsbml
+```
+
+It is possible to list all of the versions of `python_libsbml` available on your platform with `conda`:
+
+```
+conda search python_libsbml --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search python_libsbml --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search python-libsbml --channel conda-forge
+mamba repoquery search python_libsbml --channel conda-forge
 
-# List packages depending on `python-libsbml`:
-mamba repoquery whoneeds python-libsbml --channel conda-forge
+# List packages depending on `python_libsbml`:
+mamba repoquery whoneeds python_libsbml --channel conda-forge
 
-# List dependencies of `python-libsbml`:
-mamba repoquery depends python-libsbml --channel conda-forge
+# List dependencies of `python_libsbml`:
+mamba repoquery depends python_libsbml --channel conda-forge
 ```
 
 
@@ -288,17 +288,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating python-libsbml-feedstock
+Updating python_libsbml-feedstock
 =================================
 
-If you would like to improve the python-libsbml recipe or build a new
+If you would like to improve the python_libsbml recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/python-libsbml-feedstock are
+Note that all branches in the conda-forge/python_libsbml-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
