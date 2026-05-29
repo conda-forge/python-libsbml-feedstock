@@ -15,13 +15,16 @@ build:
 
 requirements:
   build:
+    - if: build_platform != target_platform
+      then:
+        - python
+        - cross-python_${{ target_platform }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib('c') }}
     - make            # [unix]
     - cmake
     - swig
-    - python
 
   host:
     - python
