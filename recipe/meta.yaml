@@ -10,22 +10,24 @@ source:
   sha256: 378077e37a1b5cd32d8c33bf845b23c22b7a6915d217d7ab811e71e022f982ea
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
+    - python  # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib('c') }}
     - make            # [unix]
     - cmake
+    - swig
 
   host:
     - python
     - setuptools
     - pip
-    - swig
     - zlib
 
   run:
